@@ -1,3 +1,7 @@
 #output {
   display: none
 }
+
+#number .help-block {
+  display: none;
+}

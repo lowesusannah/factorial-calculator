@@ -14,10 +14,11 @@
         <h1>Factorial Calculator</h1>
         <h2>For calculating all your factorials</h2>
       </div>
-      <form action="index.html" method="post">
-        <div class="form-group">
-          <label class="control-label" for="number">Enter your number:</label>
-          <input id="number" class="form-control" type="text" name="input">
+      <form role="form">
+        <div id="number" class="form-group">
+          <label class="control-label" for="number-input">Enter your number:</label>
+          <input id="number-input" class="form-control" type="text" name="input">
+          <span class="help-block">Please enter a number.</span>
         </div>
         <div class="form-group">
           <button class="btn" type="submit" name="button">Calculate!</button>
